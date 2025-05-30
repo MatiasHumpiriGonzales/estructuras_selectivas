@@ -9,7 +9,7 @@ int main(){
 	cout << "Indique el valor de la nota3 (del 0 al 100): ";
 	cin >> num3;
 	promedio = (num1 + num2 +num3) / 3;
-	if (promedio >= 70){
+	if (promedio >= 80){
 		cout << "APROBADO";
 	}
 	else {
