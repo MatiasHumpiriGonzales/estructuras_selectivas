@@ -4,7 +4,7 @@ int main (){
 	int n;
 	cout << "Ingrese el costo total: ";
 	cin >> n;
-	if (n > 1000){
+	if (n > 2000){
 		n = n - (0.2 * n);
 			cout << "El costo final es: " << n + 1;
 	}
