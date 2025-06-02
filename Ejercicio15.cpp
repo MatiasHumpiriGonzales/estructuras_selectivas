@@ -10,25 +10,25 @@ int main() {
         int dia = (numero - 1) % 7 + 1;
         switch (dia) {
             case 1:
-                cout << "Domingo" << endl;
-                break;
-            case 2:
-                cout << "Lunes" << endl;
-                break;
-            case 3:
                 cout << "Martes" << endl;
                 break;
-            case 4:
+            case 2:
                 cout << "Miercoles" << endl;
                 break;
-            case 5:
+            case 3:
                 cout << "Jueves" << endl;
                 break;
-            case 6:
+            case 4:
                 cout << "Viernes" << endl;
                 break;
-            case 7:
+            case 5:
                 cout << "Sabado" << endl;
+                break;
+            case 6:
+                cout << "Domingo" << endl;
+                break;
+            case 7:
+                cout << "Lunes" << endl;
                 break;
         }
     }
